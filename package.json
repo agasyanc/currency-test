@@ -1,0 +1,18 @@
+{
+  "name": "currency-test",
+  "version": "1.0.0",
+  "description": "test task",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && electron .",
+    "dev": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.2",
+    "electron-nightly": "^28.0.0-nightly.20230920",
+    "typescript": "^5.2.2"
+  }
+}
